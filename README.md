@@ -8,11 +8,15 @@ It is intended to be used as a common dependency by other Modena ROS 2 packages.
 ## Features
 - Custom ROS 2 messages
 - Custom ROS 2 services (future)
-- Custom ROS 2 actions (future)
+- Custom ROS 2 actions
 
-Current messages:
+### Current Messages:
 - `JogCmd`
 - `RobotState`
+
+### Current Actions:
+- `MoveHome`
+- `MoveRest`
 
 ## Installation
 This package assumes an existing ROS 2 workspace.
@@ -35,6 +39,7 @@ source install/setup.bash
 ## Used by
 - `mr3_mini_driver`
 - `modena_teleop`
+- `mr3_mini_controller`
 
 ## License
 This project is licensed under the BSD 3-Clause License.
