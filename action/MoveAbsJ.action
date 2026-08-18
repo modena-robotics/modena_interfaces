@@ -1,0 +1,5 @@
+float32[] pos # target joint positions [deg]
+uint8 speed   # 1-100%
+---
+uint8 move_result
+---

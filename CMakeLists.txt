@@ -13,6 +13,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotState.msg"
   "action/MoveHome.action"
   "action/MoveRest.action"
+  "action/MoveAbsJ.action"
 )
 
 ament_package()
