@@ -15,6 +15,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/MoveRest.action"
   "action/MoveAbsJ.action"
   "action/MoveJ.action"
+  "action/MoveL.action"
 )
 
 ament_package()
