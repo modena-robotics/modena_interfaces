@@ -15,6 +15,9 @@ It is intended to be used as a common dependency by other Modena ROS 2 packages.
 - `RobotState`
 
 ### Current Actions:
+- `MoveJ`
+- `MoveL`
+- `MoveAbsJ`
 - `MoveHome`
 - `MoveRest`
 
