@@ -1,3 +1,4 @@
 ---
-uint8 move_result
+uint8 inst_result
+uint8 result_code
 ---

@@ -1,5 +1,6 @@
 float32[] pose # [mm] and [deg]
 uint8 speed    # 1-100%
 ---
-uint8 move_result
+uint8 inst_result
+uint8 result_code
 ---

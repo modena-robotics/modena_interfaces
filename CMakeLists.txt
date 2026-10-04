@@ -10,12 +10,14 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/JogCmd.msg"
-  "msg/RobotState.msg"
+  "msg/JogStatus.msg"
+  "msg/RobotState.msg"  
   "action/MoveHome.action"
   "action/MoveRest.action"
   "action/MoveAbsJ.action"
   "action/MoveJ.action"
   "action/MoveL.action"
+  "action/WaitTime.action"
 )
 
 ament_package()

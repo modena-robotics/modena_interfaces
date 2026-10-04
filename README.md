@@ -7,11 +7,11 @@ It is intended to be used as a common dependency by other Modena ROS 2 packages.
 
 ## Features
 - Custom ROS 2 messages
-- Custom ROS 2 services (future)
 - Custom ROS 2 actions
 
 ### Current Messages:
 - `JogCmd`
+- `JogStatus`
 - `RobotState`
 
 ### Current Actions:
@@ -20,6 +20,7 @@ It is intended to be used as a common dependency by other Modena ROS 2 packages.
 - `MoveAbsJ`
 - `MoveHome`
 - `MoveRest`
+- `WaitTime`
 
 ## Installation
 This package assumes an existing ROS 2 workspace.

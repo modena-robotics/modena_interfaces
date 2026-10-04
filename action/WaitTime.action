@@ -1,0 +1,5 @@
+float32 time_s
+---
+uint8 inst_result
+uint8 result_code
+---
